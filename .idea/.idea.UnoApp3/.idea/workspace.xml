@@ -18,8 +18,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="EditorConfigPreviewManager">
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/UnoApp3/UnoApp3.csproj" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1efda0dc757ba2606ff84a89ec33b44dff2c875241461d351e9c547ba1a36de/Image.shared.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3bf1409db2a4a7673895d4270b48768ff9c3527eae5399d89806aa983d1a541/Image.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/af847824d6fb2c5293fc47b6ce773f3a7c7a848ff45581c4c6977ffe5ed/EmbeddedSvgImage.shared.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d2e5419fb8205341043952b7fd811686f59a8227977b03bea9461f541f30/Image.Android.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -37,13 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.UnoApp3 (Desktop).executor": "Debug",
+    ".NET Launch Settings Profile.UnoApp3 (Desktop).executor": "Run",
     "Android.UnoApp3.executor": "Debug",
     "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSConnectedDeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: UnoApp3": "Benjamin’s iPhone",
     "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: UnoApp3": "iPhone 15 Pro Max (iOS 18.0)",
     "DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider": "Simulator",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "iOS.UnoApp3.executor": "Debug",
+    "macOS.UnoApp3.executor": "Debug",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.UnoApp3 (Desktop)">
+  <component name="RunManager" selected="iOS.UnoApp3">
     <configuration name="UnoApp3: win-arm64" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish publish_profile="win-arm64.pubxml" pubxml_path="$PROJECT_DIR$/UnoApp3/Properties/PublishProfiles/win-arm64.pubxml" uuid_high="1756200394631630670" uuid_low="-5510038058797467365" />
       <method v="2" />
@@ -102,7 +112,7 @@
       <updated>1728488627246</updated>
       <workItem from="1728488628266" duration="218000" />
       <workItem from="1729358773209" duration="561000" />
-      <workItem from="1729359354904" duration="3569000" />
+      <workItem from="1729359354904" duration="9259000" />
     </task>
     <servers />
   </component>

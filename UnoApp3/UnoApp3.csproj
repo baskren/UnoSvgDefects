@@ -38,11 +38,16 @@
         -->
         <UnoFeatures>
             ThemeService;
-          Svg;
+            Svg;
+            Skia;
         </UnoFeatures>
     </PropertyGroup>
+  
     <ItemGroup>
       <Folder Include="Assets\Svg\" />
+      <EmbeddedResource Include="Resources\**" />
+      <PackageReference Include="Svg.Skia" />
+      <PackageReference Include="SkiaSharp.Svg" />
     </ItemGroup>
 
 </Project>
