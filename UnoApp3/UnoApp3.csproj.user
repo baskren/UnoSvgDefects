@@ -3,5 +3,20 @@
   <PropertyGroup>
     <UnoPlatformIDE>rider</UnoPlatformIDE>
     <UnoRemoteControlPort>54613#</UnoRemoteControlPort>
+    <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
+    <ActiveDebugFramework>net8.0-desktop</ActiveDebugFramework>
+    <ActiveDebugProfile>UnoApp3 (Desktop)</ActiveDebugProfile>
+    <_UnoSelectedTargetFramework>net8.0-desktop</_UnoSelectedTargetFramework>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-browserwasm|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
 </Project>

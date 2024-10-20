@@ -17,7 +17,7 @@
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
         <ApplicationVersion>1</ApplicationVersion>
         <!-- Package Publisher -->
-        <ApplicationPublisher>O=UnoApp3</ApplicationPublisher>
+        <ApplicationPublisher>UnoApp3</ApplicationPublisher>
         <!-- Package Description -->
         <Description>UnoApp3 powered by Uno Platform.</Description>
         <!--
