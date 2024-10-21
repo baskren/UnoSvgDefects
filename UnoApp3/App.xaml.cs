@@ -13,6 +13,7 @@ public partial class App : Application
     public App()
     {
         this.InitializeComponent();
+        InitializeExceptionHandling();
     }
 
     protected Window? MainWindow { get; private set; }
@@ -126,5 +127,23 @@ public partial class App : Application
         global::Uno.UI.Adapter.Microsoft.Extensions.Logging.LoggingAdapter.Initialize();
 #endif
 #endif
+    }
+
+
+
+    private void InitializeExceptionHandling()
+    {
+        System.AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
+        Microsoft.UI.Xaml.Application.Current.UnhandledException += CurrentApplication_UnhandledException;
+    }
+
+    private void CurrentDomain_UnhandledException(object sender, System.UnhandledExceptionEventArgs e)
+    {
+        throw new NotImplementedException();
+    }
+
+    private void CurrentApplication_UnhandledException(object sender, Microsoft.UI.Xaml.UnhandledExceptionEventArgs e)
+    {
+        throw new NotImplementedException();
     }
 }

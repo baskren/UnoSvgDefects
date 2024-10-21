@@ -4,14 +4,17 @@
     <UnoPlatformIDE>rider</UnoPlatformIDE>
     <UnoRemoteControlPort>54613#</UnoRemoteControlPort>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net8.0-desktop</ActiveDebugFramework>
-    <ActiveDebugProfile>UnoApp3 (Desktop)</ActiveDebugProfile>
-    <_UnoSelectedTargetFramework>net8.0-desktop</_UnoSelectedTargetFramework>
+    <ActiveDebugFramework>net8.0-windows10.0.19041</ActiveDebugFramework>
+    <ActiveDebugProfile>UnoApp3 (WinAppSDK Packaged)</ActiveDebugProfile>
+    <_UnoSelectedTargetFramework>net8.0-windows10.0.19041</_UnoSelectedTargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-browserwasm|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-desktop|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>

@@ -8,5 +8,7 @@
   <ItemGroup>
     <PackageVersion Include="Svg.Skia" Version="1.0.0.9" />
     <PackageVersion Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageVersion Include="SkiaSharp.Views.WinUI" Version="2.88.8" />
+    <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.5.241001000" />
   </ItemGroup>
 </Project>
